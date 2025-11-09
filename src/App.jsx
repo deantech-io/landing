@@ -122,7 +122,7 @@ function App() {
       <div className="page">
         <header className="top-bar">
           <div className="logo">
-            <img src="/img/Deantech-truncated-removebg.png" alt="DeanTech Logo" className="logo-image" />
+            <img src="/favicon_io/android-chrome-512x512.png" alt="DeanTech Logo" className="logo-image" />
             <span className="logo-text">DeanTech</span>
           </div>
           <nav className={`nav-links ${isMenuOpen ? "open" : ""}`}>
@@ -286,7 +286,7 @@ function App() {
         <footer className="footer">
           <div>
             <div className="logo footer-logo">
-              <img src="/img/Deantech-truncated-removebg.png" alt="DeanTech Logo" className="logo-image" />
+              <img src="/favicon_io/android-chrome-512x512.png" alt="DeanTech Logo" className="logo-image" />
               <span className="logo-text">DeanTech</span>
             </div>
             <p>We architect intelligent software ecosystems for trailblazing organizations worldwide.</p>
