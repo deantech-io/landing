@@ -149,9 +149,9 @@ function App() {
         <main>
           <section className="hero" id="about">
             <div className="hero-content">
-              <p className="eyebrow">Software Development Agency</p>
+              <p className="eyebrow">Web3 Development Agency</p>
               <h1>
-                Building the digital futures <br />
+                Building the digital future <br />
                 your imagination deserves
               </h1>
               <p className="description">
@@ -289,33 +289,33 @@ function App() {
               <img src="/favicon_io/android-chrome-512x512.png" alt="DeanTech Logo" className="logo-image" />
               <span className="logo-text">DeanTech</span>
             </div>
-            <p>We architect intelligent software ecosystems for trailblazing organizations worldwide.</p>
+            <p>In code we trust. In Dean we build.</p>
           </div>
           <div className="footer-links">
-            <div>
+            {/* <div>
               <h4>HQ</h4>
               <p>Singularity Tower, Level 47<br />Dubai Future District</p>
-            </div>
+            </div> */}
             <div>
               <h4>Contact</h4>
               <p>
-                <a href="mailto:hello@deantech.agency">hello@deantech.agency</a>
+                <a href="mailto:denys@deantech.io">✉️ denys@deantech.io</a>
               </p>
               <p>
-                <a href="tel:+14155551234">+1 (415) 555-1234</a>
+                <a href="t.me/DenysRiabtsev">💬 Telegram</a>
               </p>
             </div>
-            <div>
+            {/* <div>
               <h4>Social</h4>
               <p className="social-links">
                 <a href="#">LinkedIn</a>
                 <a href="#">X</a>
                 <a href="#">Dribbble</a>
               </p>
-            </div>
+            </div> */}
           </div>
           <p className="footer-note">
-            © {new Date().getFullYear()} DeanTech. Minds aligned with the future.
+            © {new Date().getFullYear()} DeanTech
           </p>
         </footer>
       </div>
