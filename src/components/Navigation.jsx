@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,9 +34,15 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-lg bg-web3-gradient flex items-center justify-center group-hover:scale-110 transition-transform">
-              <span className="text-white font-bold text-lg">D</span>
+          <a href="/" className="flex items-center gap-3 group">
+            <div className="relative w-10 h-10 group-hover:scale-110 transition-transform">
+              <Image
+                src="/img/Deantech-truncated-removebg.png"
+                alt="Deantech Logo"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
             <span className="text-xl font-display font-bold">Deantech</span>
           </a>
