@@ -121,7 +121,7 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
                     <a href="mailto:denys@deantech.io" className="text-gray-400 hover:text-white transition-colors">
-                      contact@deantech.io
+                      denys@deantech.io
                     </a>
                   </div>
                 </div>
@@ -131,20 +131,10 @@ export default function Contact() {
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Telephone</h4>
-                    <a href="tel:+1234567890" className="text-gray-400 hover:text-white transition-colors">
-                      +1 (234) 567-890
+                    <h4 className="font-semibold mb-1">Telegram</h4>
+                    <a href="https://t.me/DenysRiabtsev" className="text-gray-400 hover:text-white transition-colors">
+                      @DenysRiabtsev
                     </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold mb-1">Location</h4>
-                    <p className="text-gray-400">Global / Remote</p>
                   </div>
                 </div>
               </div>
@@ -185,4 +175,5 @@ export default function Contact() {
     </section>
   );
 }
+
 
