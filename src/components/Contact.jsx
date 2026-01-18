@@ -152,7 +152,7 @@ export default function Contact() {
                   <span className="text-white font-bold">𝕏</span>
                 </motion.a>
                 <motion.a
-                  href="#"
+                  href="https://www.linkedin.com/company/deantech"
                   whileHover={{ scale: 1.1 }}
                   className="w-12 h-12 rounded-lg bg-dark-secondary/50 border border-white/10 flex items-center justify-center hover:border-accent-purple transition-colors"
                   aria-label="LinkedIn"
@@ -160,7 +160,7 @@ export default function Contact() {
                   <span className="text-white font-bold">in</span>
                 </motion.a>
                 <motion.a
-                  href="#"
+                  href="https://t.me/DenysRiabtsev"
                   whileHover={{ scale: 1.1 }}
                   className="w-12 h-12 rounded-lg bg-dark-secondary/50 border border-white/10 flex items-center justify-center hover:border-accent-blue transition-colors"
                   aria-label="Telegram"
